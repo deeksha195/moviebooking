@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Movies</title>
+    <link rel="stylesheet" href="moviesname.css">
+</head>
+<body>
+   <header>
+         <a href="#" class="logo">PopCorn<span>.</span></a>
+         <div class="menuToggle" onclick=" toggleMenu();"></div>
+         <ul class="navigation">
+            <li><a href="movie.html" onclick=" toggleMenu();">Home</a></li>
+            <li><a href="About.html" onclick=" toggleMenu();">About</a></li>
+            <li><a href="moviesname.html" onclick=" toggleMenu();">Upcoming Movies</a></li>
+            <li><a href="login.html" onclick=" toggleMenu();">Login/SignUp</a></li>
+            <li><a href="contact.html" onclick=" toggleMenu();">Contact Us</a></li>
+        </ul>
+    </header>
+    <section class="menu" id="menu">
+   <div class="title">
+       <h2 class="titleText">Running<span>O</span>n Theatre</h2>
+       <p>Movies will rock in Theatre  </p>
+ </div>
+     
+   <div class="content">
+      <a href="booking.html" class="cost">
+     <div class="box">
+        <div class="imgBx">
+          <img src="soory.jpg">
+          </div>
+          <div class="text">
+            <h3>Sooryvanshi</h3>
+            <h3>Release Date-20 May 2021</h3>
+            </div>
+      </div>
+       </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="image1.jpg">
+          </div>
+          <div class="text">
+            <h3>Radhe</h3>
+            <h3>Release Date-27 May 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="radhe.jpg">
+          </div>
+          <div class="text">
+            <h3>Radhe-Shyam</h3>
+             <h3>Release Date-1 june 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="83.jpg">
+          </div>
+          <div class="text">
+            <h3>83</h3>
+             <h3>Release Date-10 june 2021</h3>
+            </div>
+      </div>
+      </a>
+      
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="Mehrshi.jpg">
+          </div>
+          <div class="text">
+            <h3>Meharshi</h3>
+           <h3> Release Date-25 May 2021</h3>
+            </div>
+      </div>
+      </a>
+      <div class="title">
+       <h2 class="titleText">Upcoming<span>M</span>ovies</h2>
+       
+ </div>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="kgf.jpg">
+          </div>
+          <div class="text">
+            <h3>K.G.F Chapter 2</h3>
+              <h3>Release Date - 25 Sep 2021</h3>
+            </div>
+      </div>
+      </a>
+      
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="gangu.jpg">
+          </div>
+          <div class="text">
+            <h3>GanguBai</h3>
+            <h3>Release Date - 27 Jul 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="image2.jpg">
+          </div>
+          <div class="text">
+            <h3>Oblivion</h3>
+              <h3>Release Date -15 Oct 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="jungle.jpg">
+          </div>
+          <div class="text">
+            <h3>Jungle Cruise</h3>
+             <h3>Release Date-1 june 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="atrangee.jpg">
+          </div>
+          <div class="text">
+             <h3>Atrangi Re</h3>
+              <h3>Release Date - 6 Aug 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+       <div class="box">
+        <div class="imgBx">
+          <img src="lal.jpg">
+          </div>
+          <div class="text">
+            <h3>Lal Singh Chadha</h3>
+              <h3>Release Date - 25 Aug 2021</h3>
+            </div>
+      </div>
+      </a>
+      <a href="booking.html" class="cost">
+      <div class="box">
+        <div class="imgBx">
+          <img src="Gravity.jpg">
+          </div>
+          <div class="text">
+            <h3>Gravity</h3>
+            <h3>Relese Date- 30 Jul 2021</h3>
+            </div>
+      </div>
+    </div>
+    </a>
+    
+    <div class="title">
+         <a href="booking.html"class="btn">Book From Here</a>
+         </div>
+</section>
+ <script text="text/javascript">
+     window.addEventListener('scroll',function(){
+         const header = document.querySelector('header');
+         header.classList.toggle("sticky",window.scrollY>0);
+     });
+      function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+      }
+     
+     </script>
+
+</body>
+</html>
